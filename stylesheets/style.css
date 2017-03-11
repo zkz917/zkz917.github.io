@@ -1,0 +1,154 @@
+body > .container {
+	margin-top: 60px;
+}
+
+.homepage-background {
+	background-color: #eee;
+}
+
+.homepage-title {
+	font-size: 63px;
+	padding-bottom: 20px;
+}
+
+.btn.btn-tile-full, .btn.btn-tile-half {
+	width: 100%;
+	background-color: #bbb;
+	display: block;
+}
+
+.btn.btn-tile-full:hover, .btn.btn-tile-half:hover {
+	background-color: #666;
+}
+
+.btn.btn-tile-half {
+	height: 165px;
+}
+
+.btn.btn-tile-full {
+	height: 360px;
+}
+
+.tile-wrapper {
+	padding-top: 30px;
+}
+
+.tile-icon-small, .tile-icon-big {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.tile-icon-small {
+	top: 112.5px;
+	font-size: 80px;
+}
+
+.tile-icon-big {
+	top: 210px;
+	font-size: 160px;
+}
+
+.tile-label {
+	position: absolute;
+	left: 25px;
+	bottom: 5px;
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+}
+
+.glyphicon.glyphicon-big {
+	font-size: 8em;
+}
+
+.footer-ruler {
+	width: 50%;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+.panel-anchor {
+	width: 0;
+	height: 0;
+	position: relative;
+	top: -70px;
+}
+
+.panel-title.panel-title-big {
+	font-size: 24px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.panel-title.panel-title-medium {
+	font-size: 21px;
+	font-weight: 300;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.well.well-margin-top {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#sidebar.affix {
+	top: 70px;
+	width: initial;
+}
+
+.panel-body.panel-body-compact {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.table > tbody > tr > td.semester {
+	width: 8em;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+
+.table > tbody > tr > td.course {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.table > tbody > tr > td.instructor {
+	width: 14em;
+	font-size: 18px;
+	font-weight: 300;
+	padding-right: 15px;
+}
+
+.table > tbody > tr > td.time-span {
+	width: 12em;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+
+.table > tbody > tr > td.description {
+	font-size: 18px;
+	font-weight: 300;
+	padding-right: 15px;
+}
+
+.table > tbody > tr > td.time-year {
+	width: 8em;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+
+#sidebar a {
+	white-space: nowrap;
+	overflow: auto;
+	text-overflow: ellipsis;
+}
